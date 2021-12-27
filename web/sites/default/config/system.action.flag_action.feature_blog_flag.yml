@@ -1,0 +1,15 @@
+uuid: cd6c9ef3-7d16-40c1-b79f-5b008967dd73
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.feature_blog
+  module:
+    - flag
+id: flag_action.feature_blog_flag
+label: 'Flag this item'
+type: node
+plugin: 'flag_action:feature_blog_flag'
+configuration:
+  flag_id: feature_blog
+  flag_action: flag

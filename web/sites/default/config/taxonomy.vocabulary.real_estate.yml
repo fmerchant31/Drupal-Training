@@ -1,0 +1,10 @@
+uuid: 68533c6f-0d81-4a1a-8a92-166108c64f8c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: S3RiQJG_DlZmTuWeQCLmW-tDYJoo9RT_KsnMmxcE2Hc
+name: 'Real Estate'
+vid: real_estate
+description: 'Styled Google Map Demo Vocabulary'
+weight: 0

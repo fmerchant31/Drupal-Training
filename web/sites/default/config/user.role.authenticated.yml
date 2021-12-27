@@ -1,0 +1,30 @@
+uuid: 5468b553-dad6-42a6-b298-398931cff6a2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'administer comment types'
+  - 'create blog content'
+  - 'delete any blog content'
+  - 'delete blog revisions'
+  - 'delete own blog content'
+  - 'edit any blog content'
+  - 'edit own blog content'
+  - 'post comments'
+  - 'revert blog revisions'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'use text format so'
+  - 'use text format source_button'
+  - 'view blog revisions'

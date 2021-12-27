@@ -1,0 +1,24 @@
+uuid: ff5c8f84-0789-4b21-aa4a-6850650216dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slideshow
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__slideshow_block_1
+theme: bartik
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:slideshow-block_1'
+settings:
+  id: 'views_block:slideshow-block_1'
+  label: 'Featured Blog'
+  provider: views
+  label_display: visible
+  views_label: 'Featured Blog'
+  items_per_page: none
+visibility: {  }

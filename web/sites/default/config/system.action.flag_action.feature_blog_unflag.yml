@@ -1,0 +1,15 @@
+uuid: d3c576cc-0472-4258-bac7-e7a288e38980
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.feature_blog
+  module:
+    - flag
+id: flag_action.feature_blog_unflag
+label: 'Unflag this item'
+type: node
+plugin: 'flag_action:feature_blog_unflag'
+configuration:
+  flag_id: feature_blog
+  flag_action: unflag

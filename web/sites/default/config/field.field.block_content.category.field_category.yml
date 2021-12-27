@@ -1,0 +1,48 @@
+uuid: 4761a8a0-1fd5-4fe3-a689-73284f57d52f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.category
+    - field.storage.block_content.field_category
+    - taxonomy.vocabulary.category
+  content:
+    - 'taxonomy_term:category:91af7e30-e82a-4a88-9345-4dbea3bf86e5'
+    - 'taxonomy_term:category:9fa899b4-cb68-4a32-87cd-878a5f691953'
+    - 'taxonomy_term:category:e2d2227a-2e42-4171-b27b-0e06ca724d0f'
+    - 'taxonomy_term:category:f895aa4e-289a-4048-b670-1a4c797e2746'
+    - 'taxonomy_term:category:fc112183-8e99-4177-be7f-64c34eabad6f'
+    - 'taxonomy_term:category:fd807f58-27bd-47f2-855b-2c0e14124a82'
+id: block_content.category.field_category
+field_name: field_category
+entity_type: block_content
+bundle: category
+label: Category
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 9fa899b4-cb68-4a32-87cd-878a5f691953
+  -
+    target_uuid: e2d2227a-2e42-4171-b27b-0e06ca724d0f
+  -
+    target_uuid: fc112183-8e99-4177-be7f-64c34eabad6f
+  -
+    target_uuid: f895aa4e-289a-4048-b670-1a4c797e2746
+  -
+    target_uuid: fd807f58-27bd-47f2-855b-2c0e14124a82
+  -
+    target_uuid: 91af7e30-e82a-4a88-9345-4dbea3bf86e5
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      category: category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: category
+field_type: entity_reference

@@ -1,0 +1,34 @@
+uuid: 78fca074-6a31-4891-b8cf-8c4916ae8fa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.real_estate.field_icon
+    - taxonomy.vocabulary.real_estate
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: fy0-FCWo7R1pqhaCglNcPTGARj-1FiJSe1lqWGSqkYc
+id: taxonomy_term.real_estate.default
+targetEntityType: taxonomy_term
+bundle: real_estate
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_icon:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
